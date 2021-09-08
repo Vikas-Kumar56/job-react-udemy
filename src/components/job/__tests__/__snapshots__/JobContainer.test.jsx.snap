@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobContainer should load more jobs when click on load more button 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-14 MuiPaper-elevation2 MuiPaper-rounded"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9"
+          >
+            <h1
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              title test
+              <span
+                class="MuiBadge-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root memo-root-15"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"
+                  />
+                </svg>
+                <span
+                  class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-invisible"
+                />
+              </span>
+            </h1>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+            >
+              description
+            </p>
+            <p
+              class="MuiTypography-root WithStyles(ForwardRef(Typography))-root-16 MuiTypography-body1 MuiTypography-gutterBottom"
+            >
+              skills
+            </p>
+            <span
+              class="WithStyles(ForwardRef(Typography))-root-17"
+              variant="body1"
+            >
+              Posted Date: 14/08/2021
+            </span>
+            <span
+              class="WithStyles(ForwardRef(Typography))-root-17"
+              variant="body1"
+            >
+              Expired Date: 2022-10-10T00:00:00.000Z
+            </span>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-18"
+            >
+              <p
+                class="MuiTypography-root WithStyles(ForwardRef(Typography))-root-19 MuiTypography-body1"
+              >
+                $100 - $200
+              </p>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text WithStyles(ForwardRef(Button))-root-20 MuiButton-textSecondary"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Place Bid
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-14 MuiPaper-elevation2 MuiPaper-rounded"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9"
+          >
+            <h1
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              title test - 2
+              <span
+                class="MuiBadge-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root memo-root-15"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"
+                  />
+                </svg>
+                <span
+                  class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-invisible"
+                />
+              </span>
+            </h1>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+            >
+              description - 2
+            </p>
+            <p
+              class="MuiTypography-root WithStyles(ForwardRef(Typography))-root-16 MuiTypography-body1 MuiTypography-gutterBottom"
+            >
+              skills
+            </p>
+            <span
+              class="WithStyles(ForwardRef(Typography))-root-17"
+              variant="body1"
+            >
+              Posted Date: 14/08/2021
+            </span>
+            <span
+              class="WithStyles(ForwardRef(Typography))-root-17"
+              variant="body1"
+            >
+              Expired Date: 2022-10-10T00:00:00.000Z
+            </span>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-25"
+            >
+              <p
+                class="MuiTypography-root WithStyles(ForwardRef(Typography))-root-19 MuiTypography-body1"
+              >
+                $100 - $200
+              </p>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text WithStyles(ForwardRef(Button))-root-20 MuiButton-textSecondary"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Place Bid
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-22 Styled(MuiBox)-root-21"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained WithStyles(ForwardRef(Button))-root-23 MuiButton-containedPrimary"
+      data-testid="load-more-btn"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Load More
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`JobContainer should render jobList 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-3 MuiPaper-elevation2 MuiPaper-rounded"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9"
+          >
+            <h1
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              title test
+              <span
+                class="MuiBadge-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root memo-root-4"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"
+                  />
+                </svg>
+                <span
+                  class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-invisible"
+                />
+              </span>
+            </h1>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+            >
+              description
+            </p>
+            <p
+              class="MuiTypography-root WithStyles(ForwardRef(Typography))-root-5 MuiTypography-body1 MuiTypography-gutterBottom"
+            >
+              skills
+            </p>
+            <span
+              class="WithStyles(ForwardRef(Typography))-root-6"
+              variant="body1"
+            >
+              Posted Date: 14/08/2021
+            </span>
+            <span
+              class="WithStyles(ForwardRef(Typography))-root-6"
+              variant="body1"
+            >
+              Expired Date: 2022-10-10T00:00:00.000Z
+            </span>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-7"
+            >
+              <p
+                class="MuiTypography-root WithStyles(ForwardRef(Typography))-root-8 MuiTypography-body1"
+              >
+                $100 - $200
+              </p>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text WithStyles(ForwardRef(Button))-root-9 MuiButton-textSecondary"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Place Bid
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-11 Styled(MuiBox)-root-10"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained WithStyles(ForwardRef(Button))-root-12 MuiButton-containedPrimary"
+      data-testid="load-more-btn"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Load More
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`JobContainer should show loader when request is pending 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  />
+  <div
+    class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+    data-testid="job-container-loading"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9"
+      >
+        <span
+          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+          style="height: 30px;"
+        />
+        <span
+          class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+          style="height: 100px;"
+        />
+        <span
+          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+          style="height: 30px;"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+      >
+        <span
+          class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+          style="height: 160px;"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
