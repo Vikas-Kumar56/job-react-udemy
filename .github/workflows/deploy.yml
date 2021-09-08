@@ -1,0 +1,23 @@
+name: React udemy project
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install React package
+        run: npm run install
+
+      - name: build
+        run: npm run build
+
+      - name: Run testcases
+        run: npm run test:ci
