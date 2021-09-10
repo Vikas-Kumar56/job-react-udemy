@@ -21,3 +21,25 @@ jobs:
 
       - name: Run testcases
         run: npm run test:ci
+
+  deploy:
+    needs: build
+    runs-on: 'ubuntu-latest'
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: login to heroku
+        env:
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: heroku container:login
+
+      - name: Build react docker image and push to heroku registry
+        env:
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: heroku container:push -a job-react-udemy web
+
+      - name: Release latest react docker image to server
+        env:
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: heroku container:release -a job-react-udemy web
