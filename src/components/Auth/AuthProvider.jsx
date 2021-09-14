@@ -42,6 +42,11 @@ const AuthProvider = ({ children }) => {
     }
   };
 
+  const logout = () => {
+    localStorage.clear(window.location.origin);
+    setUser(null);
+  };
+
   useEffect(() => {
     const jwtToken = localStorage.getItem(window.location.origin);
 
@@ -58,6 +63,7 @@ const AuthProvider = ({ children }) => {
     return {
       loggedInuser: user,
       login,
+      logout,
     };
   }, [user]);
 

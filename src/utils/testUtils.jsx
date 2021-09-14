@@ -5,12 +5,16 @@ import { Provider } from 'react-redux';
 
 // import here all your reducer
 import jobReducer from '../features/job/jobSlice';
+import userReducer from '../features/user/userSlice';
 
 function renderWithRedux(
   ui,
   {
     preloadedState,
-    store = configureStore({ reducer: { jobs: jobReducer }, preloadedState }),
+    store = configureStore({
+      reducer: { jobs: jobReducer, users: userReducer },
+      preloadedState,
+    }),
     ...renderOptions
   } = {}
 ) {
