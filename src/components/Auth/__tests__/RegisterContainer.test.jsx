@@ -17,7 +17,7 @@ jest.mock('react-router-dom', () => {
 });
 
 const handlers = [
-  rest.post('http://localhost:5000/api/v1.users', (req, res, ctx) => {
+  rest.post('http://localhost:5000/api/v1/users', (req, res, ctx) => {
     return res(
       ctx.json({
         userId: '1235',

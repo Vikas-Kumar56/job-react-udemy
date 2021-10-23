@@ -8,7 +8,6 @@ const initialState = {
   status: 'idle',
   error: null,
 };
-
 export const registerUser = createAsyncThunk('users/register', async (user) => {
   const response = await axios.post(`${baseUrl}/api/v1/users`, user);
   return response.data.userId;
