@@ -54,10 +54,16 @@ const AuthProvider = ({ children }) => {
     setLoading(false);
   }, [user]);
 
+  const logout = () => {
+    localStorage.clear(window.location.origin);
+    setUser(null);
+  };
+
   const contextValue = useMemo(() => {
     return {
       loggedInuser: user,
       login,
+      logout,
     };
   }, [user]);
 
